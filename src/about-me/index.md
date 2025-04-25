@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: "aboutme"
+theme: "about-me"
 header: "TITLE DATE"
 footer: "Footer"
 headingDivider: 1
@@ -26,7 +26,7 @@ math: katex
 
 ---
 
-## What do I do?
+## What I recently do
 
 - Study
   - Differential, Integral and Linear Algebra...

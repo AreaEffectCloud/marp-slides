@@ -1,8 +1,8 @@
 /* @theme aboutme */
 @import "base";
 
-:root {
-    --lead-h1-font-size: 60px;
+:root{
+    --lead-h1-font-size: 40px;
     --lead-h2-font-size: 35px;
     --lead-h3-font-size: 30px;
 }

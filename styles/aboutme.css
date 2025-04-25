@@ -1,0 +1,24 @@
+/* @theme aboutme */
+@import "base";
+
+:root {
+    --lead-h1-font-size: 60px;
+}
+
+section.lead h1 {
+    font-size: var(--lead-h1-font-size);
+    margin: 0 auto 30px;
+    border: 0;
+}
+
+section.lead h2 {
+    font-size: var(--lead-h2-font-size);
+    font-weight: var(--font-weight-bold);
+    margin: 0;
+    /* border-bottom: 2px solid var(--black); */
+}
+
+section.lead h3 {
+    font-size: var(--lead-h3-font-size);
+    margin: 50px auto 100px;
+}

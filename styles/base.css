@@ -10,8 +10,10 @@
   --h2-font-size: 45px;
   --h3-font-size: 40px;
   --h4-font-size: 35px;
-  --header-footer-font-size: 20px;
   --main-font-size: 30px;
+  --table-th-font-size: 23.5px;
+  --header-footer-font-size: 30px;
+  --mini-font-size: 20px;
   --font-weight-light: 200;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
@@ -89,4 +91,37 @@ section code {
 section ul,
 ol {
   padding-left: 40px;
+}
+
+section table {
+  margin: 5px auto 10px;
+}
+
+section table td img {
+  display: block;
+  margin: 0 auto;
+}
+
+section table th {
+  background-color: var(--background-theme);
+  font-size: var(--table-th-font-size);
+}
+
+section::after{
+  text-align: left;
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
+
+blockquote {
+  border-top: .1rem dashed var(--black);
+  font-size: var(--mini-font-size);
+  width: 100%;
+  width: 90%;
+  position: absolute;
+  bottom: var(--header-footer-font-size);
+  padding-left: 0;
+}
+
+blockquote::before, blockquote::after {
+  display: none;
 }

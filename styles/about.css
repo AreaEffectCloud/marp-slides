@@ -1,0 +1,35 @@
+/* @theme about */
+@import "base";
+
+:root {
+    --main-font-size: 35px;
+    --lead-h1-font-size: 70px;
+    --lead-h2-font-size: 45px;
+    --lead-h3-font-size: 50px;
+}
+
+section.lead h1 {
+    font-size: var(--lead-h1-font-size);
+    margin: 0 auto 30px;
+}
+
+section.lead h2 {
+    font-size: var(--lead-h2-font-size);
+    font-weight: var(--font-weight-bold);
+    margin: 0;
+}
+
+section.lead h3 {
+    font-size: var(--end-h3-font-size);
+    font-weight: var(--font-weight-bold);
+    margin: 0;
+}
+
+section strong {
+    font-weight: var(--font-weight-bold);
+}
+
+section.local p img {
+    margin: 0;
+}
+

@@ -1,0 +1,37 @@
+/* @theme paper */
+@import "base";
+
+:root {
+    --main-font-size: 35px;
+    --lead-h1-font-size: 40px;
+    --lead-h2-font-size: 30px;
+    --lead-h3-font-size: 30px;
+    --lead-h4-font-size: 30px;
+    --font-weight-normal-bold: 500;
+    --font-weight-bold-light: 600;
+}
+
+section.lead h1 {
+    font-size: var(--lead-h1-font-size);
+    margin-bottom: 10px;
+    border: 0;
+}
+
+section.lead h2 {
+    font-size: var(--lead-h2-font-size);
+    font-weight: var(--font-weight-normal-bold);
+    line-height: .7rem;
+}
+
+section.lead h3 {
+    font-size: var(--lead-h3-font-size);
+    font-weight: var(--font-weight-normal-bold);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+section.lead h4 {
+    font-size: var(--lead-h4-font-size);
+    font-weight: var(--font-weight-bold-light);
+    margin: 0;
+}

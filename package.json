@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css",
-    "pdf": "npx @marp-team/marp-cli@latest ./index.md --pdf --theme-set ./styles/*.css"
+    "pdf": "npx @marp-team/marp-cli@latest ./index.md --pdf --allow-local-files --theme-set ./../../styles/*.css"
   },
   "keywords": [],
   "author": "",

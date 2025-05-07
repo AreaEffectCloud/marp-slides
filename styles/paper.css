@@ -2,11 +2,13 @@
 @import "base";
 
 :root {
-    --main-font-size: 35px;
+    --main-font-size: 30px;
     --lead-h1-font-size: 40px;
     --lead-h2-font-size: 30px;
     --lead-h3-font-size: 30px;
     --lead-h4-font-size: 30px;
+    --contents-h2-font-size: 40px;
+    --contents-h3-font-size: 37.5px;
     --font-weight-normal-bold: 500;
     --font-weight-bold-light: 600;
 }
@@ -28,10 +30,39 @@ section.lead h3 {
     font-weight: var(--font-weight-normal-bold);
     margin-top: 50px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 section.lead h4 {
     font-size: var(--lead-h4-font-size);
     font-weight: var(--font-weight-bold-light);
     margin: 0;
+}
+
+section.lead strong {
+    font-weight: var(--font-weight-normal-bold);
+    color: gray;
+}
+
+section.contents header {
+    color: gray;
+    font-weight: var(--font-weight-normal-bold);
+    font-size: 25px;
+}
+
+section.contents h2 {
+    font-size: var(--contents-h2-font-size);
+    font-weight: var(--font-weight-bold-light);
+    border-bottom: 2px solid var(--black);
+}
+
+section.contents h3 {
+    font-size: var(--contents-h3-font-size);
+    font-weight: var(--font-weight-bold-light);
+    padding: 0;
+}
+
+section.contents span {
+    color: gray;
+    font-size: 30px;
 }

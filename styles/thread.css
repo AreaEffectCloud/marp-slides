@@ -1,0 +1,91 @@
+
+/* @theme thread */
+@import "default";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+:root {
+  --main-theme: rgb(14, 131, 253);
+  --black: rgb(40, 40, 40);
+  --h1-font-size: 60px;
+  --h2-font-size: 50px;
+  --h3-font-size: 40px;
+  --h4-font-size: 35px;
+  --header-footer-font-size: 20px;
+  --main-font-size: 33px;
+  --font-weight-light: 200;
+  --font-weight-normal: 400;
+  --font-weight-bold: 800;
+  --normal-border-radius: 5px;
+}
+
+section {
+  padding: 60px 60px 10px 60px;
+  background-color: white;
+  font-size: var(--main-font-size);
+  font-weight: var(--font-weight-normal);
+  color: var(--black);
+}
+
+header {
+  width: 100%;
+  color: var(--black);
+  font-size: var(--header-footer-font-size);
+  height: 50px;
+}
+
+footer {
+  width: 100%;
+  color: var(--black);
+  text-align: left;
+  padding-bottom: 0;
+  font-size: var(--header-footer-font-size);
+  height: 50px;
+}
+
+section h1 {
+  font-size: var(--h1-font-size);
+  font-weight: --font-weight-bold;
+  border-bottom: 2px solid var(--black);
+  margin-bottom: 10px;
+}
+
+section h2 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-weight-bold);
+}
+
+section h3 {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-weight-normal);
+}
+
+section h4 {
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-normal);
+}
+
+section p img {
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--normal-border-radius);
+}
+
+section pre {
+  border-radius: var(--normal-border-radius);
+  border: var(--black) 1px solid;
+}
+
+section code.language-txt {
+  color: var(--black);
+}
+
+section code {
+  color: var(--black);
+  padding: 4px 8px 4px;
+  border-radius: 4px;
+}
+
+section ul,
+ol {
+  padding-left: 40px;
+}

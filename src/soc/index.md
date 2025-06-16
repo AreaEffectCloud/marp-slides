@@ -325,8 +325,11 @@ NDR製品には、通信パケットの記録と分析、可視化機能があ�
 
 ## SOAR(Security Orchestration, Automation, and Response)
 
-<!-- 概念図を掲載 -->
-![](./images/soar_architecture.png)
+![h:570](./images/soar_architecture.png)
+
+---
+
+## SOAR(Security Orchestration, Automation, and Response)
 
 <!-- SOAR製品にはプレイブックと呼ばれる機能がある。 -->
 **プレイブック**: 特定のアラートやセキュリティイベントのパターンが発生したときの分析や誤検知判定、リスク評価、対応を自動処理する手順を記しておく。SOARは、プレイブックを使って自動で分析や判定、対応をする。
